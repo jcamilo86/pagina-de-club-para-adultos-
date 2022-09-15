@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* ------cabecera--------- */
+body {
+  background-color: rgb(23, 23, 22);
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.conte1 {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.logo1 {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  border-radius: 50%;
+  display: flex;
+}
+.menu {
+  padding-top: 40px;
+  padding-left: 400px;
+  display: flex;
+}
+.menu a {
+  text-decoration: none;
+  margin-left: 11px;
+  color: white;
+  font-size: 20px;
+}
+.menu a:hover {
+  color: #f72585;
+}
+.redes {
+  padding-top: 40px;
+  padding-right: 70px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.redes :hover {
+  color: #f72585;
+}
+.image .nube {
+  width: 100%;
+}
+
+/* ----------imgenes-------- */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.container .car {
+  width: 330px;
+  height: 430px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(0 0 0 0.2);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.25s;
+  cursor: pointer;
+}
+
+.container .car:hover {
+  transform: translate(-15px);
+  box-shadow: 0 12px 16px regba(0 0 0 0.2);
+}
+
+.container .car img {
+  width: 330px;
+  height: 220px;
+}
+
+.container .car h3 {
+  color: white;
+}
+.container .car h3:hover {
+  color: #f72585;
+}
+/* -------texto------- */
+.texto>p {
+  color: aliceblue;
+  width: 40%;
+  margin: auto;
+}
+.texto h1 {
+  font-size: 20px;
+  color: azure;
+  text-transform: uppercase;
+}
+/* -------fomulario------- */
+h1 {
+  color: white;
+  text-transform: uppercase;
+}
+.contacto {
+  background-image: url(image/pre.jpg);
+  margin: 50px auto;
+  width: 500px;
+  padding: 30px;
+  border-radius: 10px;
+}
+.contacto h1 {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.elemnto .control {
+  margin-bottom: 10px;
+}
+
+.btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 7px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.s3 {
+  color: white;
+}
+.boton :hover {
+  background-color: #ff0054;
+}
+.control {
+  width: 300px;
+  height: 40px;
+  border-radius: 7px;
+}
+.comentario {
+  color: white;
+  border-radius: 10px;
+}
